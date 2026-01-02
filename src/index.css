@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional custom overrides */
+body {
+  @apply bg-gray-100 font-sans;
+}
+
+.loader {
+  border-top-color: #6366f1;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin { 100% { transform: rotate(360deg); } }
